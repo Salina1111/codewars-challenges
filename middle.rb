@@ -1,7 +1,6 @@
 def get_middle(s)
-  if s.length.even?
-     return s[s.length/2-1] + s[s.length/2]
-   else
-      return s[s.length/2]
-   end
+mid = (s.length - 1) / 2
+  s.length.odd? ? s[mid] : s[mid..mid+1]
 end
+
+

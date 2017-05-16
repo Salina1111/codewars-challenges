@@ -1,3 +1,3 @@
 def square(a)
-  return a*a
+  a*a
 end
